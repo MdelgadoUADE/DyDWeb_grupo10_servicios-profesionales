@@ -1,0 +1,140 @@
+body {
+    background-color: #ebebd3 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.info-super-container {
+    padding: 16px 0;
+    width: 100%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-item--img {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.info-item--img img {
+    width: 100%;
+    height: 184px;
+}
+
+.info-item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info-item-text h2 {
+    display: flex;
+    align-self: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 32px 0;
+}
+
+.info-item-text h3 {
+    display: flex;
+    align-self: center;
+    color: #333;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.info-item-text strong {
+    margin-left: 8px;
+    color: #083D77;
+    font-weight: 600;
+}
+
+.info-item-text p {
+    display: flex;
+    align-self: center;
+    margin-right: 32px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.info-item-button {
+    display: flex;
+    align-self: center;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.info-item-button button {
+    background-color: #f95738;
+    border: none;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 24px;
+    padding: 4px 12px;
+    font-size: 24px;
+}
+
+@media only screen and (min-width: 600px) {
+    .info-super-container {
+        display: flex;
+        margin: 24% 0;
+        padding: 0 5%;
+    }
+
+    .info-container {
+        display: flex;
+        width: 100%;
+    }
+
+    .info-text-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .info-item--img {
+        width: auto;
+    }
+
+    .info-item--img img {
+        width: 70%;
+        height: 147px;
+    }
+
+    .info-item-text p {
+        margin-right: 0;
+    }
+
+    .info-item-text h2 {
+        align-self: inherit;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    .info-item-text h3 {
+        align-self: inherit;
+    }
+
+    .info-item-button {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .info-item-button button {
+        width: 34%;
+        font-weight: 700;
+    }
+
+}
