@@ -1,22 +1,33 @@
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    position: fixed; 
-    bottom: 0;
-    background-color: #fff;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  align-items: center;
 }
 
 .footer img {
-    width: 194px;
-    height: 68px;
+  width: 194px;
+  height: 68px;
 }
 
 .footer p {
-    margin: 0 !important;
-    color: #333;
-    font-weight: 400;
+  margin: 0 !important;
+  color: #333;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 840px) {
+  .footer p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer p {
     font-size: 12px;
+  }
 }
