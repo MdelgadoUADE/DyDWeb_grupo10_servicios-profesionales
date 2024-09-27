@@ -78,4 +78,11 @@ body {
     margin: 16px;
     padding: 2%;
   }
+  .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+
+  }
 }
