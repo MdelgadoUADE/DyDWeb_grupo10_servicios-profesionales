@@ -80,7 +80,7 @@ body {
   border: none;
   color: #fff;
   font-weight: 900;
-  border-radius: 24px;
+  
   padding: 4px 12px;
   font-size: 24px;
 }
@@ -109,8 +109,8 @@ body {
   }
 
   .info-item--img img {
-    width: 70%;
-    height: 147px;
+    width: 100%;
+    height: 250px;
   }
 
   .info-item-text p {
@@ -128,7 +128,8 @@ body {
   }
 
   .info-item-button {
-    justify-content: center;
+    justify-content: left;
+    margin-left: 25%;
     width: 100%;
   }
 
@@ -136,4 +137,13 @@ body {
     width: 34%;
     font-weight: 700;
   }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+   
 }
+}
+
