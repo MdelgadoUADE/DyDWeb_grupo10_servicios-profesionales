@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../assets/font/Vazirmatn-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* Utilizando !important debido al CDN de bootstrap, caso contrario se utiliza SCSS */
+* {
+  font-family: Vazirmatn !important;
+}

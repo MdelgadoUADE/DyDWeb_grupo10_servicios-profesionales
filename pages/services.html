@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/stylesheet.css" />
     <link rel="stylesheet" href="../styles/header.css" />
     <link rel="stylesheet" href="../styles/about.css" />
     <link rel="stylesheet" href="../styles/footer.css" />
-    <title>Nosotros | Flex Designers</title>
+    <link rel="stylesheet" href="../styles/services.css" />
+    <title>Servicios | Flex Designers</title>
   </head>
 
   <body>
@@ -57,15 +59,87 @@
       </nav>
     </header>
 
+    <main class="py-3 d-flex flex-column justify-content-evenly text-center">
+      <section>
+        <h1>Servicios</h1>
+        <p class="mx-auto p-3 box-description fs-4 text-start m-auto">
+          Flex Designers brinda profesionalidad en todo nivel, tanto sea un
+          servicio de <strong>maquetado de paginas web</strong>,
+          <strong>desarrollo web</strong> o
+          <strong>desarrollo de aplicaciones</strong>
+          cubrimos las necesidades de los negocios y empresas
+        </p>
+      </section>
+      <section class="card-container">
+        <article class="card services adjust-img color-override-primary">
+          <img
+            src="../assets/images/programming-stock-photo.jpg"
+            alt="Photo of code in a screen"
+          />
+          <div class="clamp-height">
+            <h2>Desarrollo de aplicaciones</h2>
+            <ul class="fs-4 add-padding-bottom">
+              <li>Creación de aplicaciones Python</li>
+              <li>Diseño y desarrollo de BBDD básicas</li>
+            </ul>
+          </div>
+        </article>
+        <article class="card services adjust-img color-override-primary">
+          <img
+            src="../assets/images/website-stock-photo.jpg"
+            alt="Photo of code in a screen"
+          />
+          <div class="clamp-height">
+            <h2>Desarrollo Web</h2>
+            <ul class="fs-4 add-padding-bottom">
+              <li>Creación de aplicaciones Python</li>
+              <li>Diseño y desarrollo de BBDD básicas</li>
+            </ul>
+          </div>
+        </article>
+        <article class="card services adjust-img color-override-primary">
+          <img
+            src="../assets/images/wireframe-stock-photo.jpg"
+            alt="Photo of code in a screen"
+          />
+          <div class="clamp-height">
+            <h2>Maquetado de Pagínas</h2>
+            <ul class="fs-4 add-padding-bottom">
+              <li>Creación de aplicaciones Python</li>
+              <li>Diseño y desarrollo de BBDD básicas</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+      <section
+        class="d-flex flex-column mb-5 align-items-center justify-content-evenly fs-4 flex-md-row"
+      >
+        <p class="box-keyword p-3">
+          A travez de buenas practicas
+          <strong>fomentamos calidad y buenas relaciones</strong>
+        </p>
+        <p class="box-keyword p-3">
+          Creamos <strong>valor sostenible</strong> con el correr del tiempo
+          para nuestros clientes
+        </p>
+      </section>
+    </main>
+
     <footer class="footer">
+      <div>
+        <p>
+          Materia: <strong>Diseño y Desarrollo Web</strong> | Curso:
+          <strong>492766</strong> | Grupo: <strong>10</strong>
+        </p>
+        <p>
+          Todos los derechos reservados - Sitio desarrollado para uso educativo
+          - 2024
+        </p>
+      </div>
       <img
         src="../assets/uade-logo.png"
         alt="logotipo de univesidad argentina de la empresa"
       />
-      <p>
-        Sitio desarrollado con práctica para la materia materia
-        <strong>Diseño y Desarrollo Web.</strong>
-      </p>
     </footer>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
